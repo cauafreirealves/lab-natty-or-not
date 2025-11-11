@@ -16,10 +16,22 @@ Hoje, ele gera conteúdos textuais detalhados (planos de estudo) e imagens educa
 3. Capturei prints do fluxo de geração de conteúdo e imagens para demonstrar o funcionamento multimodal do projeto.  
 
 ## 🚀 Resultados
-- Plano de estudos personalizado (Claude 3)  
-- Imagens educativas geradas automaticamente (Titan Image Generator)  
-- Conteúdo multimodal pronto para demonstração e entrega do projeto do bootcamp  
-*(inclua 2 a 3 prints do plano e das imagens geradas)*
+
+**prompt para o Claude 3:**
+ <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20prompt%20claude%203%20haiku.jpeg">
+ 
+**Plano de estudos personalizado (Claude 3):**
+   <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20resposta%20claude%203%20haiku%20pt1.jpeg">
+   <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20resposta%20claude%203%20haiku%20pt2.jpeg">
+   <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20resposta%20claude%203%20haiku%20pt3.jpeg">
+   <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20resposta%20claude%203%20haiku%20pt4.jpeg">
+   <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20resposta%20claude%203%20haiku%20pt5.jpeg">
+   
+   **Imagens educativas geradas automaticamente (Titan Image Generator):**
+   <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20titan%20image%20generator%201.jpeg">
+   <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20titan%20image%20generator%202.jpeg">
+   <img src="https://github.com/cauafreirealves/lab-natty-or-not/blob/main/Captura%20de%20tela%20Titan%20Image%20Generator%203.jpeg">
+   
 
 ## 💭 Próximos Passos / Upgrade Futuro
 O objetivo futuro é evoluir o **Estud-AI** para gerar **conteúdos multimídia completos** e totalmente personalizados, incluindo:
