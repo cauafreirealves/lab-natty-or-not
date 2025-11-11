@@ -1,51 +1,36 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# 🎓 Estud-AI: Aprendizado Personalizado com IA Generativa
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+O **Estud-AI** é uma IA educacional generativa desenvolvida com **Amazon Bedrock**, projetada para analisar o perfil de cada aluno e criar **planos de estudo personalizados**.  
+Hoje, ele gera conteúdos textuais detalhados (planos de estudo) e imagens educativas ilustrativas, demonstrando a capacidade multimodal da ferramenta.  
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+- Amazon Bedrock
+  - Claude 3 Haiku (Anthropic) – geração de conteúdo textual e prompts de imagens
+  - Titan Image Generator G1 (Amazon) – geração de imagens educativas
+- AWS Console (Free Tier)
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+1. Criei um **agente Claude 3 Haiku** no Amazon Bedrock para analisar o perfil do aluno e gerar planos de estudo detalhados.  
+2. Usei o **Titan Image Generator G1** no Playground para criar imagens educativas a partir dos prompts gerados pelo Claude.  
+3. Capturei prints do fluxo de geração de conteúdo e imagens para demonstrar o funcionamento multimodal do projeto.  
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+- Plano de estudos personalizado (Claude 3)  
+- Imagens educativas geradas automaticamente (Titan Image Generator)  
+- Conteúdo multimodal pronto para demonstração e entrega do projeto do bootcamp  
+*(inclua 2 a 3 prints do plano e das imagens geradas)*
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+## 💭 Próximos Passos / Upgrade Futuro
+O objetivo futuro é evoluir o **Estud-AI** para gerar **conteúdos multimídia completos** e totalmente personalizados, incluindo:
+- Vídeo-aulas e podcasts  
+- PDFs e e-books automatizados  
+- Infográficos avançados  
+- Análise profunda do perfil do aluno para personalização ainda maior  
 
-### Exemplos e Insigths
+Para isso, planejo integrar:
+- **AWS Lambda** – para orquestrar as chamadas aos modelos de IA generativa  
+- **API Gateway** – para disponibilizar o Estud-AI como API acessível via front-end  
+- **S3 / DynamoDB** – para armazenamento de conteúdos e dados de alunos  
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+Este upgrade permitirá que o Estud-AI se torne um **sistema educacional completo, escalável e multimodal**, entregando conteúdos personalizados de forma automática para cada aluno.
